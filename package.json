@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "assert": "1.1.1",
+        "colors": "0.6.2",
+        "http": "0.0.0",
+        "jasmine": "2.0.1",
+        "js-methods": "0.9.2",
+        "node-uuid": "1.4.1",
+        "spdy": "1.30.1",
+        "tls": "0.0.1",
+        "tracer": "0.7.1"
+    },
+    "devDependencies": {
+        "memwatch": ">= 0.2.2"
+    }
+}
