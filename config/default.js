@@ -7,7 +7,7 @@ module.exports = {
             ciphers: "AES128-GCM-SHA256:RC4:HIGH:!MD5:!aNULL:!EDH",
         },
         port: '12345',
-        host: '0.0.0.0'
+        //host: 'localhost'
     },
     http_request: {
         timeout: 120000 // (2 minutes in milliseconds)
@@ -22,7 +22,7 @@ module.exports = {
     },
     requester: {
         port: '23456',
-        host: '0.0.0.0'
+        //host: 'localhost'
     },
     hooks: {
         connect: '/kbox/bin/kbagentless/onagentconnect %s',
